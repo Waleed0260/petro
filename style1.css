@@ -1,0 +1,994 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap');
+/* font-family: 'Roboto Condensed', sans-serif;
+fonts
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.freepik.com/free-photo/gray-painted-background_53876-94041.jpg?size=626&ext=jpg);
+    background-attachment: fixed;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.header{
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(54, 30, 30);
+}
+#menu{
+    display: none;
+}
+.icons{
+    color: white;
+    margin-top: 10px;
+    float: right;
+    margin-right: 120px;
+}
+#twitter{
+    margin-left: 28px;
+    cursor: pointer;
+}
+#link{
+    margin-left: 28px;
+    cursor: pointer;
+}
+#face{
+    cursor: pointer;
+}
+header{
+    background-color: rgb(73, 38, 38);
+    height: 150px;
+    width: 100vw;
+}
+#logo{
+    height: 80px;
+    width: 180px;
+    margin-left: 70px;
+    margin-top: 32px;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    /* position: absolute;
+    right: 130px;
+    top: 40px; */
+    margin-top: -40px;
+    margin-right: 80px;
+    font-family: 'Open Sans';
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+#service:hover{
+    color: rgb(194, 80, 80);
+}
+#job:hover{
+    color: rgb(194, 80, 80);
+}
+#about:hover{
+    color: rgb(194, 80, 80);
+}
+#living:hover{
+    color: rgb(194, 80, 80);
+}
+#contact:hover{
+    color: rgb(194, 80, 80);
+}
+
+.meni{
+    display: none;
+}
+#close{
+    display: none;
+}
+#logo-1{
+    display: none;
+}
+/* header? */
+
+/* .container{
+    min-height: 300vh;
+} */
+.main #earth{
+    display: block;
+    width: 84vw;
+    height: 500px;
+    /* position: absolute;
+    top: 200px; */
+    margin-left: 7.3vw;
+}
+#peto{
+    height: 200px;
+    width: 300px;
+    margin-left: 17vw;
+    position: absolute;
+    top: 400px;
+}
+
+
+/* yahaaan saaee articleee wallla booox */
+
+
+.art h2{
+font-family: sans-serif;
+position: absolute;
+top: 55px;
+left: 60px;
+color: rgb(45, 46, 95);
+font-family: 'Roboto Condensed', sans-serif;
+}
+.art{
+    width: 84vw;
+    height: 840px;
+    background-color: white;
+    position: absolute;
+    top: 700px;
+    left: 7.3vw;
+    /* margin-top: 0px;
+    margin-left: 7.3vw; */
+}
+.art #art{
+    margin-top: 120px;
+    margin-left: 57px;
+    width: 48vw;
+    font-family: sans-serif;
+}
+.art #meen{
+    height: 240px;
+    width: 25vw;
+    margin-left: 55vw;
+    border-radius: 40px;
+    position: absolute;
+    top: 15vh;
+}
+
+/* idhr saeee blue boooox */
+
+.radius{
+    background-color: rgb(36, 77, 116);
+    height: 180px;
+    width: 25vw;
+    border-radius: 40px;
+    position: relative;
+    top: -70px;
+    margin-left: 55vw;
+}
+.radius #quote{
+    color: rgb(255, 255, 255);
+    width: 23vw;
+    margin-left: 2vw;
+    position: relative;
+    top: 35px;
+    font-family: sans-serif;
+}
+.radius b{
+    color: rgb(253, 251, 251);
+    position: relative;
+    top: 50px;
+    margin-left: 3vw;
+    font-family: sans-serif;
+}
+.ads{
+    background-color: rgb(241, 241, 241);
+    height: 900px;
+    width: 84vw;
+    position: absolute;
+    top: 1330px;
+    margin-left: 7.3vw;
+}
+.ads h1{
+    color: rgb(45, 46, 95);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.ads #dome{
+    height: 480px;
+    width: 35vw;
+    border-radius: 30px;
+    position: relative;
+    top: 10px;
+    margin-left: 3vw;
+}
+.ads #inter{
+    height: 480px;
+    width: 35vw;
+    border-radius: 30px;
+    margin-left: 44vw;
+    position: relative;
+    top: -470px;
+}
+#dom{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(45, 46, 95);
+    margin-left: 17vw;
+    position: relative;
+    top: -460px;
+}
+#int{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(45, 46, 95);
+    margin-left: 60vw;
+    position: relative;
+    top: -478px;
+}
+#dom-petro{
+    color: rgb(19, 17, 17);
+    position: relative;
+    top: -450px;
+    width: 35vw;
+    margin-left: 5vw;
+    font-family: sans-serif;
+}
+#int-petro{
+    color: rgb(19, 17, 17);
+    position: relative;
+    top: -505px;
+    width: 35vw;
+    margin-left: 46vw;
+    font-family: sans-serif;
+}
+#dom-btn{
+    color: rgb(19, 17, 17);
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(19, 17, 17);
+    position: relative;
+    top: -450px;
+    margin-left: 15vw;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    transition: .3s;
+    cursor: pointer;
+}
+#dom-btn:hover{
+    color: rgb(194, 80, 80);
+}
+#int-btn{
+    color: rgb(19, 17, 17);
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(19, 17, 17);
+    position: relative;
+    top: -495px;
+    margin-left: 60vw;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    transition: .3s;
+    cursor: pointer;
+}
+#int-btn:hover{
+    color: rgb(194, 80, 80);
+}
+
+
+
+ /* containerrr kjhataam
+ 
+ 'as,.,d
+ ss
+ mmmm hooo gyaaaaa aa   */
+
+footer{
+    height: 460px;
+    width: 100vw;
+    background-color: rgb(54, 30, 30);
+    position: absolute;
+    top: 2200px;
+}
+#fotlogo{
+    height: 100px;
+    width: 21vw;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+#fotpara{
+    width: 450px;
+    color: white;
+    margin-left: 4vw;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.icons-foot{
+    color: white;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    /* margin-left: 80px; */
+    cursor: pointer;
+}
+#twitter-foot{
+    margin-left: 20px;
+    cursor: pointer;
+}
+#link-foot{
+    margin-left: 20px;
+    cursor: pointer;
+}
+#face-foot{
+    cursor: pointer;
+}
+#foot{
+    color: white;
+    margin-left: 47vw;
+    margin-top: -310px;
+    font-family: 'Open Sans', sans-serif;
+}
+.links ul{
+    /* margin-top: 3vh; */
+    font-family: 'Open Sans';
+
+}
+.links ul li a{
+    text-decoration: none;
+    color: white;
+}
+.links ul li {
+    color: white;
+    margin-top: 1.8vh;
+}
+.links{
+    margin-left: 48vw;
+    margin-top: 0px;
+}
+.add-sec #info-foot{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    /* position: relative;
+    top: -37vh;
+    left: 75vw; */
+    /* margin-left: 70vw;
+    margin-top: -37vh; */
+    margin-left: 70vw;
+    margin-top: -240px;
+}
+.add-sec #office{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 70vw;
+}
+.add-sec #address{
+    color: white;
+    margin-left: 70vw;
+    margin-top: 22px;
+}
+.add-sec #phon{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 70vw;
+    margin-top: 26px;
+}
+.add-sec #fax{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 70vw;
+    margin-top: 18px;
+}
+/* laast line? */
+
+.footer{
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(84, 172, 172);
+    position: absolute;
+    top: 2650px;
+}
+ #foo{
+    color: white;
+    margin-left: 380px;
+    position: relative;
+    top: 18px;
+}
+
+
+/* mediaaaa queriesss
+q
+q
+offf 978 pixelsssss */
+
+@media only screen and (max-width:980px) {
+    body{
+        /* overflow-x: hidden; */
+    }
+    nav ul{
+        background-color: rgb(73, 38, 38);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 510px;
+        height: 660px;
+        position: absolute;
+        top: 41px;
+        right: -700px;
+        z-index: 100;
+        transition: 0.5s;
+    }
+    nav ul li {
+        padding: 25px;
+    }
+    .meni {
+        display: inline-block;
+        background-color: white;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+        position: absolute;
+        top: 100px;
+        left: 88vw;
+        cursor: pointer;
+    }
+    #close{
+        display: block;
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 85px;
+        cursor: pointer;
+    }
+    #logo-1{
+        display: block;
+        height: 100px;
+        width: 200px;
+        margin-top: -100px;
+    }
+    #menu{
+        display: inline-block;
+        margin-top: 14px;
+        margin-left: 15px;
+    }
+    .art #meen{
+        height: 170px;
+        width: 25vw;
+    }
+/* blue box? */
+.art #meen{
+    height: 240px;
+    width: 25vw;
+    margin-left: 55vw;
+    border-radius: 40px;
+    position: absolute;
+    top: 5vh;
+}
+    .radius{
+        background-color: rgb(36, 77, 116);
+        height: 187px;
+        width: 28vw;
+        border-radius: 40px;
+        position: relative;
+        top: -170px;
+        margin-left: 55vw;
+    }
+
+    .ads #dome{
+        height: 390px;
+        width: 35vw;
+        border-radius: 30px;
+        margin-top: 30px;
+        margin-left: 3vw;
+    }
+    .ads #inter{
+        height: 380px;
+        width: 35vw;
+        border-radius: 30px;
+        margin-left: 44vw;
+        position: relative;
+        top: -380px;
+    }
+
+    #dom{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(45, 46, 95);
+        margin-left: 17vw;
+        position: relative;
+        top: -360px;
+    }
+    #int{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(45, 46, 95);
+        margin-left: 60vw;
+        position: relative;
+        top: -378px;
+    }
+
+    #dom-petro{
+        color: rgb(19, 17, 17);
+        position: relative;
+        top: -350px;
+        width: 35vw;
+        margin-left: 5vw;
+        font-family: sans-serif;
+    }
+    #int-petro{
+        color: rgb(19, 17, 17);
+        position: relative;
+        top: -425px;
+        width: 35vw;
+        margin-left: 46vw;
+        font-family: sans-serif;
+    }
+    #dom-btn{
+        color: rgb(19, 17, 17);
+        background-color: rgb(241, 241, 241);
+        border-color: rgb(19, 17, 17);
+        position: relative;
+        top: -350px;
+        margin-left: 15vw;
+        width: 140px;
+        height: 50px;
+        border-radius: 10px;
+        font-family: 'Open Sans', sans-serif;
+        transition: .3s;
+        cursor: pointer;
+    }
+    #dom-btn:hover{
+        color: rgb(194, 80, 80);
+    }
+    #int-btn{
+        color: rgb(19, 17, 17);
+        background-color: rgb(241, 241, 241);
+        border-color: rgb(19, 17, 17);
+        position: relative;
+        top: -395px;
+        margin-left: 53vw;
+        width: 140px;
+        height: 50px;
+        border-radius: 10px;
+        font-family: 'Open Sans', sans-serif;
+        transition: .3s;
+        cursor: pointer;
+    }
+    #int-btn:hover{
+        color: rgb(194, 80, 80);
+    }
+
+/* footerrr */
+
+    footer{
+        height: 96vh;
+    }
+    .footer{
+        position: absolute;
+        top: 3000px;
+    }
+    .footer #foo{
+        margin-left: 20vw;
+    }
+    #fotlogo{
+        height: 15vh;
+        width: 30vw;
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+    #fotpara{
+        width: 48vw;
+    }
+    #foot{
+        color: white;
+        margin-left: 56vw;
+        margin-top: -30vh;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .links{
+        margin-left: 59vw;
+        margin-top: 0px;
+    }
+
+/* contact infooo */
+
+    .add-sec #info-foot{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        /* position: relative;
+        top: -37vh;
+        left: 75vw; */
+        /* margin-left: 70vw;
+        margin-top: -37vh; */
+        margin-left: 3vw;
+        margin-top: 70px;
+    }
+    .add-sec #office{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 4vw;
+        position: relative;
+        top: 22px;
+    }
+    .add-sec #address{
+        color: white;
+        margin-left: 4vw;
+        margin-top: 30px;
+    }
+    .add-sec #phon{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 4vw;
+        margin-top: 15px;
+    }
+    .add-sec #fax{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 4vw;
+        margin-top: 17px;
+    }
+}
+
+
+@media (max-width:800px) {
+    .main #earth{
+        display: block;
+        width: 84vw;
+        height: 700px;
+        /* position: absolute;
+        top: 200px; */
+        margin-left: 7.3vw;
+    }
+    #peto{
+        height: 200px;
+        width: 300px;
+        margin-left: 17vw;
+        position: absolute;
+        top: 600px;
+    }
+    .art{
+        position: absolute;
+        top: 900px;
+        height: 800px;
+    }
+    .art h2{
+        width: 250px;
+    }
+    .art #art{
+        width: 43vw;
+    }
+    .art #meen{
+        height: 150px;
+    }
+    .art .radius {
+        position: relative;
+        top: -410px;
+        width: 25vw;
+        height: 300px;
+    }
+    .art .radius #quote{
+        width: 100px;
+        left: 40px;
+    }
+    .radius b{
+        width: 10px;
+        margin-left: 30px;
+    }
+    .ads{
+        background-color: rgb(241, 241, 241);
+        height: 700px;
+        width: 84vw;
+        position: absolute;
+        top: 1670px;
+        margin-left: 7.3vw;
+    }
+    .ads #dome{
+        height: 240px;
+    }
+    .ads #inter{
+        height: 240px;
+        top: -236px;
+    }
+    #dom{
+        margin-left: 17vw;
+        position: relative;
+        top: -210px;
+        z-index: 100;
+    }
+    #int{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(45, 46, 95);
+        margin-left: 60vw;
+        position: relative;
+        top: -205px;
+        margin-left: 30vw;
+    }
+    .ads #dom-petro{
+        top: -199px;
+        width: 230px;
+    }
+    .ads #int-petro{
+        top: -299px;
+        width: 230px;
+    }
+    .ads #dom-btn{
+        top: -230px;
+    }
+    .ads #int-btn{
+        top: -280px;
+    }
+    footer{
+        position: absolute;
+        top: 2350px;
+    }
+    .footer{
+        width: 100vw;
+        height: 50px;
+        background-color: rgb(84, 172, 172);
+        position: absolute;
+        top: 3130px;
+    }
+    .footer #foo{
+        left: -100px;
+        width: 1000px;
+    }
+}
+
+
+
+@media (max-width:580px) {
+    .art{
+        height: 1300px;
+    }
+    .art h2{
+        width: 500px;
+    }
+    .art #art{
+        width: 64vw;
+        z-index: 100;
+    }
+    .art #meen{
+        top: 730px;
+        left: -260px;
+        width: 64vw;
+        height: 280px;
+    }
+    .art .radius{
+        top: 450px;
+        left: -260px;
+        width: 64vw;
+        height: 150px;
+    }
+    .art .radius #quote{
+        width: 310px;
+    }
+    .ads{
+        top: 2200px;
+        height: 1100px;
+    }
+    .ads #dome{
+        width: 78vw;
+    }
+    .ads #inter{
+        width: 78vw;
+        top: 240px;
+        left: -40vw;
+    }
+    .ads #dom{
+        margin-left: 34vw;
+    }
+    .ads #int{
+        margin-left: 34vw;
+        top: 240px;
+    }
+    .ads #dom-petro{
+        width: 400px;
+        left: 20px;
+    }
+    .ads #int-petro{
+        width: 400px;
+        top: 200px;
+        left: -200px;
+    }
+    .ads #dom-btn{
+        margin-left: 30vw;
+    }
+    .ads #int-btn{
+        margin-left: 30vw;
+        top: 170px;
+    }
+    footer{
+        top: 3250px;
+        height: 1200px;
+    }
+    footer .add-sec{
+        margin-top: 10px;
+    }
+    footer #foot{
+        margin-top: 70px;
+        margin-left: 5vw;
+    }
+    footer .links{
+        margin-left: 10vw;
+    }
+    .footer{
+        height: 80px;
+        margin-top: 1300px;
+    }
+    .footer #foo{
+        width: 400px;
+        margin-left: 200px;
+    }
+}
+@media (max-width:460px) {
+    .meni{
+        margin-left: -8vw;
+    }
+    .main #peto{
+        width: 250px;
+    }
+    .art h2{
+        margin-left: -50px;
+    }
+    .art #art{
+        width: 66vw;
+        margin-top: 99px;
+        /* margin-left: 16px; */
+    }
+    .art #meen{
+        height: 200px;
+        margin-left: 70vw;
+        margin-top: 90px;
+    }
+    .art .radius{
+        /* top: 340px;
+        left: -220px;
+         */
+        position: absolute;
+        top: 1050px;
+        /* left: -210px; */
+        margin-left: 70vw;
+
+        height: 180px;
+        width: 280px;
+    }
+    .art .radius #quote{
+        margin-left: 10px;
+        width: 200px;
+    }
+    .ads h1{
+        width: 180px;
+        margin-top: 5px;
+    }
+    .ads #dome{
+        width: 300px;
+        margin-left: 10vw;
+    }
+    .ads #dom-petro{
+        width: 239px;
+        margin-left: 60px;
+        margin-top: -30px;
+    }
+    .ads #dom-btn{
+        margin-top: -100px;
+    }
+    .ads #inter{
+        width: 300px;
+        margin-left: 50vw;
+    }
+    .ads #int-petro{
+        width: 239px;
+        margin-left: 260px;
+    }
+    .ads #int-btn{
+        margin-top: 0px;
+    }
+    footer #fotpara{
+        width: 80vw;
+    }
+    footer #fotlogo{
+        width: 250px;
+    }
+}
+@media (max-width:400px) {
+    .main #peto{
+        width: 200px;
+        height: 150px;
+    }
+    .art #art{
+        margin-left: 9px;
+        width: 72vw;
+        margin-top: 128px;
+    }
+    .art{
+        height: 1400px;
+    }
+    .art h2{
+        width: 200px;
+    }
+    .art #meen{
+        height: 150px;
+        width: 200px;
+        margin-left: 320px;
+        /* position: relative;
+        top: 20px; */
+        margin-top: 150px;
+    }
+    .art .radius{
+        height: 260px;
+        width: 200px;
+        margin-left: 320px;
+    }
+    .art .radius #quote{
+        width: 130px;
+    }
+    .ads {
+        top: 2280px;
+    }
+    .ads #dome{
+        height: 190px;
+        width: 200px;
+    }
+    .ads #dom-petro{
+        margin-left: 10px;
+    }
+    .ads #dom-btn{
+        margin-left: 80px;
+    }
+    .ads #inter{
+        height: 190px;
+        width: 200px;
+        margin-top: 40px;
+    }
+    .ads #int{
+        margin-left: 100px;
+    }
+    .ads #int-petro{
+        margin-left: 220px;
+    }
+    .ads #int-btn{
+        margin-left: 80px;
+    }
+    footer{
+        top: 3360px;
+    }
+    .footer{
+        top: 3240px;
+    }
+    .footer #foo{
+        margin-left: 120px;
+        width: 240px;
+    }
+    #logo{
+        margin-left: -0px;
+    }
+    .icons{
+        color: white;
+        margin-top: 10px;
+        float: right;
+        margin-right: 40px;
+    }
+}
+@media (max-width:320px) {
+    .art .radius{
+        margin-left: 290px;
+        margin-top: 50px;
+    }
+    .art #meen{
+        margin-left: 290px;
+        height: 130px;
+        margin-top: 230px;
+    }
+    footer .add-sec{
+        margin-top: -40px;
+    }
+    .icons{
+        color: white;
+        margin-top: 10px;
+        float: right;
+        margin-right: 40px;
+    }
+    #logo{
+        margin-left: -0px;
+    }
+}
